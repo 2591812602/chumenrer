@@ -1,0 +1,283 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/ucenter/ucenter",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/uni-agree/uni-agree",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none"
+				}
+			}
+		}, {
+			"path": "pages/ucenter/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/ucenter/read-news-log/read-news-log",
+			"style": {
+				"navigationBarTitleText": "阅读记录",
+				"enablePullDownRefresh": true
+			}
+		}
+		// #ifdef APP-PLUS
+		, {
+			"path": "pages/ucenter/about/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"backgroundColorTop": "transparent",
+					"background": "transparent",
+					"titleNView": false,
+					"scrollIndicator": false,
+					"popGesture": "none",
+					"animationType": "fade-in",
+					"animationDuration": 200
+
+				}
+			}
+		},
+		{
+			"path": "pages/ucenter/invite/invite",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}
+		// #endif
+	    ,{
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+           {
+           	"navigationBarTitleText": "",
+           	"enablePullDownRefresh": false
+           } 
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			"path": "pages/dongtai/dongtai",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+        ,{
+            "path" : "pages/content/content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+			"path": "pages/haoyouliebiao/haoyouliebiao",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+        ,{
+            "path" : "pages/searchhaoyou/searchhaoyou",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/liaotian/liaotian",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+				
+            }
+			
+            
+        }
+    ],
+	"subPackages": [{
+			"root": "uni_modules/uni-feedback",
+			"pages": [{
+				"path": "pages/opendb-feedback/opendb-feedback",
+				"style": {
+					"navigationBarTitleText": "意见反馈",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "uni_modules/uni-id-pages/pages",
+			"pages": [{
+					"path": "userinfo/userinfo",
+					"style": {
+						"navigationBarTitleText": "个人资料"
+					}
+				},
+				{
+					"path": "login/login-withoutpwd"
+				},
+				{
+					"path": "login/login-withpwd"
+				},
+				{
+					"path": "userinfo/deactivate/deactivate",
+					"style": {
+						"navigationBarTitleText": "注销账号"
+					}
+				},
+				{
+					"path": "userinfo/bind-mobile/bind-mobile",
+					"style": {
+						"navigationBarTitleText": "绑定手机号码"
+					}
+				},
+				{
+					"path": "login/login-smscode",
+					"style": {
+						"navigationBarTitleText": "手机验证码登录"
+					}
+				},
+				{
+					"path": "register/register",
+					"style": {
+						"navigationBarTitleText": "注册"
+					}
+				},
+				{
+					"path": "retrieve/retrieve",
+					"style": {
+						"navigationBarTitleText": "重置密码"
+					}
+				}, {
+					"path": "common/webview/webview",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": ""
+					}
+				}, {
+					"path": "userinfo/change_pwd/change_pwd",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "修改密码"
+					}
+				}, {
+					"path": "register/register-by-email",
+					"style": {
+						"navigationBarTitleText": "邮箱验证码注册"
+					}
+				}, {
+					"path": "retrieve/retrieve-by-email",
+					"style": {
+						"navigationBarTitleText": "通过邮箱重置密码"
+					}
+				},
+				{
+					"path": "userinfo/set-pwd/set-pwd",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "设置密码"
+					}
+				}
+				// #ifdef H5
+				,
+				{
+					"path": "userinfo/cropImage/cropImage"
+				},
+				{
+					"path": "register/register-admin",
+					"style": {
+						"enablePullDownRefresh": false,
+						"navigationBarTitleText": "注册管理员账号"
+					}
+				}
+				// #endif
+			]
+		}
+	],
+	"globalStyle": {
+		// #ifdef H5
+		
+		// #endif
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-starter",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": false,
+		// "maxWidth":375,
+		"rpxCalcMaxDeviceWidth": 375,
+		"rpxCalcBaseDeviceWidth": 375
+		// "rpxCalcIncludeWidth":0
+	},
+	"condition": {
+		
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/社区 (1).png",
+			"selectedIconPath": "static/tabbar/社区.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/dongtai/dongtai",
+			"iconPath": "static/tabbar/动态 (1).png",
+			"selectedIconPath": "static/tabbar/动态.png",
+			"text": "动态"
+		},
+		{
+			"pagePath": "pages/message/message",
+			"iconPath": "static/tabbar/消息_o.png",
+			"selectedIconPath": "static/tabbar/3.1-消息.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/ucenter/ucenter",
+			"iconPath": "static/tabbar/我的 (1).png",
+			"selectedIconPath": "static/tabbar/我的.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {
+		"loginPage": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+		"needLogin": [
+			"/uni_modules/uni-id-pages/pages/userinfo/userinfo"
+		],
+		"resToLogin": true
+	}
+}

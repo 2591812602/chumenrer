@@ -1,0 +1,28 @@
+.page .item1 {
+  position: relative;
+  height: 270rpx;
+}
+.page .item1 .liaotiankuang {
+  background-color: #f4f4f4;
+  height: 50rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 150rpx;
+}
+.page .item2 {
+  position: relative;
+}
+.page .item2 .touxiang2 {
+  position: absolute;
+  right: 20rpx;
+  top: 100rpx;
+}
+.page .item2 .liaotiankuang {
+  background-color: #f4f4f4;
+  height: 50rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 150rpx;
+  right: 170rpx;
+}

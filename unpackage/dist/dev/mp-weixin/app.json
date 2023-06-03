@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/ucenter/ucenter",
+    "pages/uni-agree/uni-agree",
+    "pages/ucenter/settings/settings",
+    "pages/ucenter/read-news-log/read-news-log",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/dongtai/dongtai",
+    "pages/message/message",
+    "pages/content/content",
+    "pages/haoyouliebiao/haoyouliebiao",
+    "pages/searchhaoyou/searchhaoyou",
+    "pages/liaotian/liaotian"
+  ],
+  "subPackages": [
+    {
+      "root": "uni_modules/uni-feedback",
+      "pages": [
+        "pages/opendb-feedback/opendb-feedback"
+      ]
+    },
+    {
+      "root": "uni_modules/uni-id-pages/pages",
+      "pages": [
+        "userinfo/userinfo",
+        "login/login-withoutpwd",
+        "login/login-withpwd",
+        "userinfo/deactivate/deactivate",
+        "userinfo/bind-mobile/bind-mobile",
+        "login/login-smscode",
+        "register/register",
+        "retrieve/retrieve",
+        "common/webview/webview",
+        "userinfo/change_pwd/change_pwd",
+        "register/register-by-email",
+        "retrieve/retrieve-by-email",
+        "userinfo/set-pwd/set-pwd"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-starter",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false,
+    "rpxCalcMaxDeviceWidth": 375,
+    "rpxCalcBaseDeviceWidth": 375
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/社区 (1).png",
+        "selectedIconPath": "static/tabbar/社区.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dongtai/dongtai",
+        "iconPath": "static/tabbar/动态 (1).png",
+        "selectedIconPath": "static/tabbar/动态.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabbar/消息_o.png",
+        "selectedIconPath": "static/tabbar/3.1-消息.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/tabbar/我的 (1).png",
+        "selectedIconPath": "static/tabbar/我的.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

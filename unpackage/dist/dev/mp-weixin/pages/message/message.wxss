@@ -1,0 +1,33 @@
+.navbar {
+  position: relative;
+  height: 90rpx;
+}
+.navbar .font {
+  position: absolute;
+  left: 340rpx;
+  top: 0;
+}
+.navbar .guanyu {
+  position: absolute;
+  top: 0;
+  right: 30rpx;
+}
+.list {
+  height: 150rpx;
+  position: relative;
+}
+.list .name {
+  position: absolute;
+  top: 10rpx;
+  left: 100rpx;
+}
+.list .message {
+  position: absolute;
+  top: 70rpx;
+  left: 100rpx;
+}
+.list .time {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}

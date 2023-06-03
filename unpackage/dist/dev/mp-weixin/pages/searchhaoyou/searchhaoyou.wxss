@@ -1,0 +1,14 @@
+.list {
+  height: 150rpx;
+  position: relative;
+}
+.list .name {
+  position: absolute;
+  top: 10rpx;
+  left: 130rpx;
+}
+.list .type {
+  position: absolute;
+  top: 60rpx;
+  left: 130rpx;
+}

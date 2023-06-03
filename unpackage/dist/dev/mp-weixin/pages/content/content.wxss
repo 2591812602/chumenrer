@@ -1,0 +1,76 @@
+.page2 {
+  position: relative;
+}
+.page2 .touxiang {
+  padding-left: 20rpx;
+}
+.page2 .touxiang image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.page2 .name {
+  position: absolute;
+  left: 90rpx;
+  top: 5rpx;
+}
+.page2 .time {
+  position: absolute;
+  left: 90rpx;
+  top: 35rpx;
+}
+.page2 .guanzhu {
+  height: 40px ;
+  width: 80px;
+  border-radius: 10rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+}
+.page2 .guanzhu button {
+  background-color: #fe5a7d;
+  color: #fff;
+}
+.page2 .dianzang1 {
+  position: absolute;
+  left: 120rpx;
+  top: 805rpx;
+}
+.page2 .cai {
+  position: absolute;
+  top: 800rpx;
+  left: 200rpx;
+}
+.page2 .cai1 {
+  position: absolute;
+  left: 320rpx;
+  top: 805rpx;
+}
+.page2 .pinglun {
+  position: absolute;
+  top: 800rpx;
+  left: 400rpx;
+}
+.page2 .pinglun1 {
+  position: absolute;
+  left: 520rpx;
+  top: 805rpx;
+}
+.page2 .share {
+  position: absolute;
+  top: 800rpx;
+  left: 560rpx;
+}
+.page2 .share1 {
+  position: absolute;
+  top: 800rpx;
+  left: 670rpx;
+}
+.comment {
+  position: relative;
+  height: 200rpx;
+}
+.comment .name2 {
+  position: absolute;
+  left: 70rpx;
+  top: 10rpx;
+}

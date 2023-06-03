@@ -1,0 +1,48 @@
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100rpx;
+}
+.tabs view {
+  padding-left: 50px;
+  width: 100rpx;
+}
+.tabs .active {
+  color: #fe5a7d;
+  font-size: 15px;
+}
+.list {
+  height: 150rpx;
+  position: relative;
+}
+.list .name {
+  position: absolute;
+  top: 10rpx;
+  left: 100rpx;
+}
+.list .sex {
+  background-color: #fe5a7d;
+  width: 100rpx;
+  height: 30rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 60rpx;
+  left: 100rpx;
+  font-size: 2px;
+  padding-bottom: 10rpx;
+  padding-left: 10rpx;
+  padding-top: 10rpx;
+}
+.list .sex image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.list .gou {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}
+.list .gou image {
+  width: 30rpx;
+  height: 30rpx;
+}

@@ -1,0 +1,35 @@
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100rpx;
+}
+.tabs view {
+  padding-left: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+.tabs .active {
+  color: #fe5a7d;
+  font-size: 23px;
+}
+.list {
+  height: 200rpx;
+  position: relative;
+}
+.list .name {
+  position: absolute;
+  top: 0;
+  left: 200rpx;
+}
+.list .topic {
+  color: #aeaba6;
+  position: absolute;
+  top: 50rpx;
+  left: 200rpx;
+}
+.list .topic1 {
+  color: #aeaba6;
+  position: absolute;
+  top: 100rpx;
+  left: 200rpx;
+}

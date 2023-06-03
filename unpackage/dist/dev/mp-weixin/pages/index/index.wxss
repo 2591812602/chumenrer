@@ -1,0 +1,153 @@
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100rpx;
+}
+.tabs view {
+  padding-left: 35px;
+  font-size: 12px;
+  text-align: center;
+}
+.tabs .active {
+  color: #fe5a7d;
+  font-size: 23px;
+}
+.content {
+  position: relative;
+}
+.content .name {
+  position: absolute;
+  top: 25rpx;
+  left: 120rpx;
+}
+.content .guanzhu {
+  height: 20px ;
+  width: 80px;
+  position: absolute;
+  right: 20rpx;
+  top: 25rpx;
+  border-radius: 10px;
+}
+.content .guanzhu button {
+  background-color: #fe5a7d;
+  color: #ffffff;
+}
+.content .dianzan image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 70rpx;
+  bottom: 70rpx;
+}
+.content .font1 {
+  position: absolute;
+  left: 140rpx;
+  bottom: 72rpx;
+}
+.content .cai image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 235rpx;
+  bottom: 70rpx;
+}
+.content .font2 {
+  position: absolute;
+  left: 300rpx;
+  bottom: 72rpx;
+}
+.content .pinglun1 image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 400rpx;
+  bottom: 70rpx;
+}
+.content .font3 {
+  position: absolute;
+  left: 470rpx;
+  bottom: 72rpx;
+}
+.content .share image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 600rpx;
+  bottom: 70rpx;
+}
+.content .font4 {
+  position: absolute;
+  left: 660rpx;
+  bottom: 72rpx;
+}
+.content .tupian {
+  padding-bottom: 100rpx;
+}
+.content2 {
+  position: relative;
+}
+.content2 .name {
+  position: absolute;
+  top: 25rpx;
+  left: 120rpx;
+}
+.content2 .guanzhu {
+  height: 20px ;
+  width: 80px;
+  position: absolute;
+  right: 20rpx;
+  top: 25rpx;
+  border-radius: 10px;
+}
+.content2 .guanzhu button {
+  background-color: #fe5a7d;
+  color: #ffffff;
+}
+.content2 .dianzan image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 70rpx;
+  bottom: 70rpx;
+}
+.content2 .font1 {
+  position: absolute;
+  left: 140rpx;
+  bottom: 72rpx;
+}
+.content2 .cai image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 235rpx;
+  bottom: 70rpx;
+}
+.content2 .font2 {
+  position: absolute;
+  left: 300rpx;
+  bottom: 72rpx;
+}
+.content2 .pinglun1 image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 400rpx;
+  bottom: 70rpx;
+}
+.content2 .font3 {
+  position: absolute;
+  left: 470rpx;
+  bottom: 72rpx;
+}
+.content2 .share image {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 600rpx;
+  bottom: 70rpx;
+}
+.content2 .font4 {
+  position: absolute;
+  left: 660rpx;
+  bottom: 72rpx;
+}
